@@ -87,7 +87,7 @@ button {
 
 #hero-flamingo path {
     stroke: #0A0A0A !important;
-    stroke-width: 2;
+    stroke-width: 1;
     fill: #FB8CB5;
     stroke-dasharray: 5000;
     stroke-dashoffset: 5000;
@@ -275,7 +275,6 @@ body {
     border-radius: 100%;
     border: 3px solid var(--color-black);
     background: var(--color-beige);
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
     width: 324px;
     animation: badge-float 4s ease-in-out infinite;
 }
@@ -298,7 +297,6 @@ body {
     border: 3px solid var(--color-black);
     background-color: var(--color-beige);
     border-radius: 100%;
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
 }
 
 .points {
@@ -539,6 +537,7 @@ footer {
     background-color: var(--color-blue);
     position: relative;
     height: 900px;
+    margin-top: 50px;
 }
 
 .bar-icon-content {
@@ -673,7 +672,7 @@ footer {
 }
 
 .images {
-    margin-top: 385px;
+    margin-top: 305px;
     position: relative;
     height: 800px;
 }
@@ -720,7 +719,6 @@ footer {
     position: absolute;
     left: -36px;
     top: 155px;
-    transform: rotate(-9.224deg);
 }
 
 .icon-beach-nine {
@@ -756,7 +754,7 @@ footer {
 }
 
 .glyph {
-    margin-top: 400px;
+    margin-top: 300px;
     height: 600px;
 }
 
