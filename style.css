@@ -574,18 +574,6 @@ footer {
     width: 100%;
 }
 
-/* Анимация SVG для bar */
-.icon-bar path,
-.icon-bar line {
-    stroke-dasharray: 2000;
-    animation: svg-draw 4s ease-in-out infinite;
-}
-
-.icon-bar:hover path,
-.icon-bar:hover line {
-    animation-play-state: paused;
-}
-
 .bar-badge {
     height: 110px;
     position: absolute;
@@ -689,18 +677,6 @@ footer {
     width: 100%;
 }
 
-/* Анимация SVG для images */
-.icon-images path,
-.icon-images line {
-    stroke-dasharray: 2000;
-    animation: svg-draw 4s ease-in-out infinite;
-}
-
-.icon-images:hover path,
-.icon-images:hover line {
-    animation-play-state: paused;
-}
-
 .beach {
     margin-top: 50px;
     padding-top: 100px;
@@ -724,10 +700,10 @@ footer {
 .icon-beach-nine {
     position: absolute;
     width: 360px;
-    height: 320px;
-    top: 252px;
+    height: 360px;
+    top: 215px;
     z-index: 2;
-    left: 80px;
+    left: 75px;
 }
 
 .icon-beach-zero {
