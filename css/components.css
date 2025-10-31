@@ -1,0 +1,116 @@
+.text-block {
+    color: var(--color-black);
+    max-width: 430px;
+}
+
+.text-block.text-white {
+    color: var(--color-beige);
+}
+
+.text-block-title {
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -0.96px;
+}
+
+.text-block-description {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 110%;
+    margin-top: 1rem;
+}
+
+.badge {
+    border-radius: 100%;
+    border: 3px solid var(--color-black);
+    background: var(--color-beige);
+    width: 324px;
+    animation: badge-float 4s ease-in-out infinite;
+}
+
+.badge:hover {
+    animation-play-state: paused;
+}
+
+.badge-text {
+    text-transform: uppercase;
+    color: var(--color-black);
+    text-align: center;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.point {
+    border: 3px solid var(--color-black);
+    background-color: var(--color-beige);
+    border-radius: 100%;
+}
+
+.points {
+    position: relative;
+    z-index: 2;
+}
+
+.points-left-bottom .point:nth-child(1) {
+    position: absolute;
+    bottom:-65px;
+}
+.points-left-bottom .point:nth-child(2) {
+    position: absolute;
+    left: -37px;
+    bottom: -95px;
+}
+.points-left-bottom .point:nth-child(3) {
+    position: absolute;
+    left:-68px;
+    bottom:-120px;
+}
+.points-right-bottom .point:nth-child(1) {
+    position: absolute;
+    bottom: -75px;
+    right: 40px;
+}
+.points-right-bottom .point:nth-child(2) {
+    position: absolute;
+    right: 14px;
+    bottom: -108px;
+}
+.points-right-bottom .point:nth-child(3) {
+    position: absolute;
+    right: -6px;
+    bottom: -137px;
+}
+
+.points-top .point:nth-child(1) {
+    position: absolute;
+    top: -135px;
+    right: 40px;
+}
+.points-top .point:nth-child(2) {
+    position: absolute;
+    right: 14px;
+    top: -168px;
+}
+.points-top  .point:nth-child(3) {
+    position: absolute;
+    right: -6px;
+    top: -197px;
+}
+
+.point-l {
+    width: 40px;
+    height: 40px;
+}
+.point-m {
+    width: 30px;
+    height: 30px;
+}
+.point-s {
+    width: 20px;
+    height: 20px;
+}
